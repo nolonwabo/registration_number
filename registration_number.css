@@ -1,0 +1,20 @@
+body {
+  background-image: url('/home/bootcamp/projects/registration_numbers/back.jpg');
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  color: red;
+}
+#regNo{
+  border-color: black;
+  border-width: thick;
+  box-sizing: 50px;
+  border-radius: 20%;
+  height: 100px;
+  width: 200px;
+  background-color: #4a4646;
+  float: right;
+  margin-right: 36em;
+}
