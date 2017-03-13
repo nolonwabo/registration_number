@@ -1,20 +1,35 @@
 body {
-  background-image: url('/home/bootcamp/projects/registration_numbers/back.jpg');
+  background-image: url('/home/bootcamp/projects/registration_numbers/maxresdefault.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 h1{
   text-align: center;
   font-size: 50px;
   font-style: italic;
   color: red;
+  background-color: black;
 }
 #regNo{
   border-color: black;
-  border-width: thick;
   box-sizing: 50px;
-  border-radius: 20%;
-  height: 100px;
+  height: 50px;
   width: 200px;
-  background-color: #4a4646;
-  float: right;
-  margin-right: 36em;
+
+
+}
+#adding{
+  float: left;
+}
+li{
+  border-radius: 2em;
+  border-color: black;
+  height: 50px;
+  width: 300px;
+  background-color: yellow;
+  list-style: none;
+  border-style: solid;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 0.5em;
 }
