@@ -1,7 +1,5 @@
 body {
-  background-image: url('maxresdefault.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: brown;
 }
 h1{
   text-align: center;
@@ -32,10 +30,11 @@ li{
   text-align: center;
   font-size: 40px;
   margin-top: 0.5em;
+  text-transform: uppercase;
 }
-#Locations{
-margin-bottom: 1em;
-float: left;
-
-
+.radio{
+  margin-top: 2em;
+}
+.hidden{
+  display: none;
 }

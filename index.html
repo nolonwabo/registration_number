@@ -14,17 +14,18 @@
 <div id="rgNo">
 <input type="text" id="regNo" placeholder="Please input registration Number"></input>
 </div>
-<hr/>
+<input type="text" list="mySelect" id="towns"></input>
 <input type="button" onClick="add()" value="Add" id="adding" name="addButton"></input>
-<hr/>
-<select id="location" onclick="location">
-  <option value="Cape" name="reg" >Cape town</option>
-  <option value="Paarl" name="reg">Paarl</option>
-  <option value="Bellville" name="reg">Bellville</option>
-  <option value="Stellenbonch" name="reg">Stellenbonsh</option>
-</select>
+<button type="button" onClick="filter()" value="Filter" id="filter">Filter</button>
+<datalist id="mySelect">
+  <option id="cape">Cape town</option>
+  <option id="paarl">Paarl</option>
+  <option  id="bellville">Bellville</option>
+  <option id="stellenbonsh">Stellenbonsh</option>
+  <<option id="all">All</option>
+</datalist>
 <ul id="box"></ul>
-<hr/>
+
 <script src="registration_number.js">
 </script>
 
